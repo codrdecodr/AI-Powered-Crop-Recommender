@@ -6,7 +6,7 @@ import joblib
 model = joblib.load("crop_recommendation_model.pkl")
 
 # Streamlit UI
-st.title("🌱 AI-Powered Crop Recommender")
+st.title("🌱 AI Crop Recommender")
 st.write("Enter soil details and get the best crop to grow.")
 
 # User inputs
