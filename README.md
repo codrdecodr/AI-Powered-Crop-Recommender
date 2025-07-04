@@ -4,7 +4,7 @@ An AI-based system that suggests the best crop to grow based on soil and environ
 
 ## 🚀 Features
 - Predicts the optimal crop using machine learning
-- Easy-to-use interface (CLI or Web-based)
+- Easy-to-use interface
 - Built with Python and scikit-learn
 
 ## ⚙️ Setup
