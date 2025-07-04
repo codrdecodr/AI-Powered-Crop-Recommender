@@ -6,7 +6,7 @@ import joblib
 model = joblib.load("crop_recommendation_model.pkl")
 
 # Streamlit UI
-st.title("🌱 AI-Powered Crop Recommendation System")
+st.title("🌱 AI-Powered Crop Recommender")
 st.write("Enter soil details and get the best crop to grow.")
 
 # User inputs
@@ -22,4 +22,4 @@ rainfall = st.number_input("Rainfall (mm)")
 if st.button("Recommend Crop"):
     input_data = np.array([[N, P, K, temperature, humidity, ph, rainfall]])
     crop = model.predict(input_data)[0]
-    st.success(f"✅ Recommended Crop: **{crop}**")
+    st.success(f"✅ Recommended Crop: **{crop}**")  
